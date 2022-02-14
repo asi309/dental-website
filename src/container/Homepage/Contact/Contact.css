@@ -1,0 +1,48 @@
+.app__contact {
+  margin-top: 80px;
+  display: flex;
+  background-color: #F0F6FB;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.app__contact-text {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 29px;
+  line-height: 33px;
+  letter-spacing: -0.3;
+  color: var(--color-blue);
+}
+
+.app__contact-text>span {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+  .app__contact {
+    margin-top: 20px;
+  }
+
+  .app__contact-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app__contact-text>span {
+    display: inline-block;
+    margin-top: 16px;
+  }
+}

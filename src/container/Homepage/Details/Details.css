@@ -1,0 +1,125 @@
+.app__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 6rem;
+}
+
+.app__details-cards_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.details-card {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 20px;
+  max-width: 270px;
+  width: 24%;
+  padding: 10px;
+}
+
+.card__img {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 30px 0 0;
+}
+
+.card__heading {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card__text {
+  font-size: 12px;
+  line-height: 133.5%;
+}
+
+.app__details-description_container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  position: relative;
+  margin-top: 80px;
+  min-height: 480px;
+}
+
+.app__details-description_circle {
+  height: 480px;
+  width: 480px;
+  border-radius: 50%;
+  background-color: var(--color-description-circle);
+  position: absolute;
+  top: 0;
+  left: calc(50% - 240px);
+  z-index: -1;
+}
+
+.app__details-description_img img {
+  position: absolute;
+  top: 0px;
+  right: calc(50% - 96px);
+  width: 710px;
+  object-fit: cover;
+}
+
+.app__details-description_content {
+  max-width: 50%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.app__details-description_header {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27px;
+  letter-spacing: -0.376923px;
+  text-transform: uppercase;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.app__details-description_text_header {
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--color-blue);
+  margin-bottom: 3px;
+}
+
+.app__details-description_text_text {
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 19px;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__details {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .app__details {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .app__details-cards_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details-card {
+    width: unset;
+    max-width: 360px;
+    margin-bottom: 20px;
+  }
+}

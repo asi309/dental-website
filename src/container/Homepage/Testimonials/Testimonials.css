@@ -1,0 +1,129 @@
+.app__testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 6rem;
+}
+
+.app__testimonials-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.app__testimonials-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 64px;
+  color: var(--color-black);
+}
+
+.app__testimonials-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--color-black);
+}
+
+.app__testimonials-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.app__testimonials-content_scroll {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: 0;
+}
+
+.app__testimonials-content_scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 350px;
+  margin-right: 60px;
+}
+
+.testimonial_card-blurb {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+  margin-bottom: 32px;
+}
+
+.testimonial_card-blurb_title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+  width: 270px;
+  color: var(--color-black);
+}
+
+.testimonial_card-blurb_content {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-black);
+  width: 270px;
+}
+
+.testimonial_card-blurb::after {
+  content: ' ';
+  position: absolute;
+  right: 50%;
+  bottom: -16px;
+  border-top: 16px solid white;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+}
+
+.testimonial_card-client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 270px;
+}
+
+.testimonial_card-client_image {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.testimonial_card-client_image img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+
+.testimonial_card-client_name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.testimonial_card-client_role {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-grey-dark);
+}

@@ -1,0 +1,104 @@
+.app__services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 6rem;
+}
+
+.app__services-header {
+  margin-bottom: 80px;
+}
+
+.app__services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 64px;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+
+.app__services-subtitle {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 64px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.app__services-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__services-cards_container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 12.5%;
+  row-gap: 85px;
+  margin-bottom: 81px;
+}
+
+.app__services-cards_container>article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.app__services-card_title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--color-black);
+  margin-bottom: 12px;
+}
+
+.app__services-card_content {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-black);
+  margin-bottom: 40px;
+}
+
+.app__services-card_cta {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--color-blue);
+  background-color: var(--color-white);
+  border: none;
+  outline: none;
+}
+
+.app__services-card_cta>span {
+  margin-right: 10px;
+}
+
+.app__services_cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.app__services_cta>button {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  background-color: var(--color-white);
+  border: none;
+  outline: none;
+}
+
+.app__services_cta>button>span {
+  margin-right: 17px;
+}
