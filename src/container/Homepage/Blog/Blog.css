@@ -1,0 +1,128 @@
+.app__blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 6rem;
+}
+
+.app__blog-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 540px;
+}
+
+.app__blog-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 64px;
+  color: var(--color-black);
+}
+
+.app__blog-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--color-black);
+  text-align: center;
+}
+
+.app__blog-content {
+  display: flex;
+  min-width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app__blog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 356px;
+}
+
+.app__blog-card_image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 100%;
+  flex: 1;
+}
+
+.app__blog-card_image img {
+  object-fit: cover;
+}
+
+.app__blog-card_social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.app__blog-card_author {
+  color: var(--color-blue);
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.app__blog-card_author p {
+  padding-right: 17px;
+}
+
+.app__blog-card_date {
+  font-size: 12px;
+  line-height: 14px;
+  padding: 0 10px;
+  border-left: 1px solid #66666686;
+  border-right: 1px solid #66666686;
+}
+
+.app__blog-card_comments,
+.app__blog-card_likes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 11px;
+}
+
+.app__blog-card_comments>p {
+  border-right: 1px solid #66666686;
+  padding-left: 4px;
+  padding-right: 11px;
+}
+
+.app__blog-card_likes>p {
+  padding-left: 4px;
+}
+
+.app__blog-card_comments>svg,
+.app__blog-card_likes>svg {
+  color: var(--color-blue)
+}
+
+.app__blog-card_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.app__blog-card_title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.app__blog-card_body {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-grey-light);
+}

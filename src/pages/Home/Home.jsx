@@ -1,4 +1,4 @@
-import { Navbar } from '../../components';
+import { Footer, Navbar } from '../../components';
 import {
   Blog,
   Contact,
@@ -21,6 +21,7 @@ const Home = () => {
       <Doctors />
       <Testimonials />
       <Blog />
+      <Footer />
     </div>
   );
 };

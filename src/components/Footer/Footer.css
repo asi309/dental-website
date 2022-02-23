@@ -1,0 +1,140 @@
+.app__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 6rem;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.app__footer-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 310px;
+  padding-bottom: 15px;
+}
+
+.app__footer-about_logo {
+  width: 146px;
+  margin-bottom: 32px;
+}
+
+.app__footer-about_header {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.app__footer-about_body {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.app__footer-business {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 212px;
+}
+
+.app__footer-business>p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.app__footer-business>p:last-of-type {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.app__footer-business>p>span {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.app__footer-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.app__footer-social_title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.app__footer-social_list {
+  list-style: none;
+}
+
+.app__footer-social_list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 11px;
+}
+
+.app__footer-social_list-item>div {
+  margin-right: 10px;
+}
+
+.app__footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 191px;
+}
+
+.app__footer-newsletter_title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.app__footer-newsletter_body {
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 189px;
+  margin-bottom: 10px;
+}
+
+.app__footer-newsletter_form {
+  background-color: var(--color-white);
+  border: none;
+  display: flex;
+  min-width: 188px;
+  min-height: 27px;
+  padding: 2px 0;
+}
+
+.app__footer-newsletter_form>input {
+  border: none;
+  outline: none;
+  height: 27px;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 7px 0 7px 7px;
+}
+
+.app__footer-newsletter_form>button {
+  margin-right: 2px;
+  border: none;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  min-width: 67px;
+  min-height: 27px;
+  font-size: 10px;
+  line-height: 12px;
+}
